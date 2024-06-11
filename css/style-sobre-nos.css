@@ -34,7 +34,7 @@ body {
 
 .btn-inscreva-se {
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 70%;
     transform: translate(-50%, -50%);
     padding: 1.5rem 3rem;
@@ -43,7 +43,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 50px;
     border: 1px solid gray;
-    font-size: 1.6rem;
+    font-size: 1rem;
     cursor: pointer;
     z-index: 2;
     transition: all 0.3s ease-in-out;
@@ -56,7 +56,7 @@ body {
 
 .text {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     position: absolute;
     top: 18%;
     left: 45%;
