@@ -50,7 +50,7 @@
     font-size: 15px;
 }
 #submit {
-    background-image: linear-gradient(to right, rgb(230, 200, 11), rgb(234, 207, 28));
+    background-color: #F7B311;
     width: 50%;
     border: none;
     padding: 15px;
@@ -111,7 +111,7 @@ legend {;
 .inputUser:valid ~ .labelInput {
     top: -20px;
     font-size: 15px;
-    color: #F7B311;
+    color: #F29E02;
 }
 #submit {
     background-image: white;
@@ -125,5 +125,5 @@ legend {;
     margin-top: 20px;
 }
 #submit:hover {
-    background-image: linear-gradient(to right, rgb(217, 167, 18), rgb(223, 206, 27));
+    background-color: #F29E02;
 }
