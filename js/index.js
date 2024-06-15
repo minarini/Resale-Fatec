@@ -14,7 +14,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     } else {
         alert('Cadastrado com sucesso!');
         setTimeout(function() {
-            event.target.submit(); // Submete o formulário após exibir a mensagem
-        }, 100); // Ajuste o tempo de acordo com a necessidade
+            event.target.submit();
+        }, 100);
     }
 });

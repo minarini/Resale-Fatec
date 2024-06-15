@@ -36,18 +36,21 @@
     font-size: 15px;
     color:white;
 }
-#data_nascimento {
+#inp_data_nascimento {
+    background: none;
     border: none;
-    padding: 5px;
-    border-radius: 10px;
+    padding-top: 15px ;
     outline: none;
+    color: white;
     font-size: 15px;
+    width: 35%;
+    letter-spacing: 1px;
 }
 .labelDataNascimento {
     font-size: 15px;
 }
 #submit {
-    background-image: linear-gradient(to right, rgb(207, 181, 13), rgb(215, 190, 23));
+    background-image: linear-gradient(to right, rgb(230, 200, 11), rgb(234, 207, 28));
     width: 50%;
     border: none;
     padding: 15px;
@@ -109,16 +112,6 @@ legend {;
     top: -20px;
     font-size: 15px;
     color: #F7B311;
-}
-#data_nascimento {
-    border: none;
-    padding: 5px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 15px;
-}
-.labelDataNascimento {
-    font-size: 15px;
 }
 #submit {
     background-image: white;
