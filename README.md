@@ -1,2 +1,2 @@
 # Resale-Fatec
-private
+public
