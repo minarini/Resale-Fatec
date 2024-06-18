@@ -1,7 +1,8 @@
 document.querySelector('form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Impede a submissão inicial do formulário
+    event.preventDefault(); 
 
     const dataNascimento = document.getElementById('inp_data_nascimento').value;
+    const senha = document.getElementById('inp_senha').value;
     const hoje = new Date();
     const dataNasc = new Date(dataNascimento);
 
@@ -11,10 +12,18 @@ document.querySelector('form').addEventListener('submit', function(event) {
 
     if (idade < 18 || (idade === 18 && (mes < 0 || (mes === 0 && dia < 0)))) {
         alert('Você deve ter mais de 18 anos para se cadastrar.');
-    } else {
-        alert('Cadastrado com sucesso!');
-        setTimeout(function() {
-            event.target.submit();
-        }, 100);
+        document.getElementById('inp_data_nascimento').value = '';
+        return;
     }
+
+    if (senha.length < 6) {
+        alert('A senha deve ter mais de 6 caracteres.');
+        document.getElementById('inp_senha').value = '';
+        return;
+    }
+
+    alert('Cadastrado com sucesso!');
+    setTimeout(function() {
+        event.target.submit(); 
+    }, 100); 
 });
